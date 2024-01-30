@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration:none;
+     color:#000000;
+}
+
+#title {
+    font-size: 0.7em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(255, 100, 100, 0.9);
+    line-height: 2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#bottom #left {
+    float: left;
+    position: relative;
+    left: 2em;
+}
+
+#bottom #right {
+    float: right;
+    position: relative;
+    right: 2em;
+}
+
+#text {
+    padding: 0.5em;
+    text-indent: 2em;
+    line-height: 3em;
+}
