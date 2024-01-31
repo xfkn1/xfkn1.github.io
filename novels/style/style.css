@@ -1,5 +1,6 @@
 body {
-    margin: 0px;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 0px;
     font-size: 20px;
 }
@@ -22,6 +23,8 @@ a {
     line-height: 2em;
     text-align: center;
     color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 #bottom #left {
