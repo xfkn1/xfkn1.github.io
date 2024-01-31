@@ -27,6 +27,10 @@ a {
     margin: 0 auto;
 }
 
+#bottom a {
+    color: rgb(255, 255, 255);
+}
+
 #bottom #left {
     float: left;
     position: relative;
