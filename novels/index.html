@@ -22,10 +22,11 @@
             height: 150px;
             background-color: #ffffff;
             border-width: 1px;
+            border-radius: 15px;
         }
 
         .buttonImg {
-            border-radius: 5px;
+            border-radius: 15px;
             float: left;
         }
 
@@ -37,20 +38,35 @@
             font-size: 15px;
         }
 
-        #novelList {
+        .novelList {
             width: 100%;
+            
+        }
+
+        .headDiv {
+            background: url('https://pic.imgdb.cn/item/656ef1acc458853aef8425ed.jpg') no-repeat; 
+            background-size: 100%; 
+            margin-bottom: 15px;
+        }
+
+        .headDiv p {
+            color: #000000; 
+            margin: 0px;
+            padding: 25px; 
+            font-size: 25px; 
+            height: 145px;
         }
     </style>
 </head>
 
 <body>
     <!--顶栏-->
-    <div style="background: url('https://pic.imgdb.cn/item/656ef1acc458853aef8425ed.jpg') no-repeat; background-size: 100%; margin-bottom: 15px;">
-        <div style="color: #000000; padding: 8px; font-size: 25px; height: 145px;">东奈小说网</div>
+    <div class="headDiv">
+        <p>东奈小说网</p>
     </div>
 
     <!--小说列表-->
-    <div id="novelList">
+    <div class="novelList">
 
         <div class="div">
             <a href="0001/index.html">
@@ -83,6 +99,7 @@
         </div>
 
     </div>
+
     <!-- 版权信息栏 -->
     <div style="color: #ffffff; background-color: #000000; text-align: center; font-size: 10px; padding: 5px; margin-top: 15px;">Copyright ❤ 2024 by 香风可奈</div>
 </body>
