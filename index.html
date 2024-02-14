@@ -23,14 +23,16 @@
                 background-size: cover; 
                 background-position: center; 
                 background-repeat: no-repeat;
-            }
-            .title {
-                padding: 0.6rem;
+                border-radius: 15px;
             }
             #headColor {
                 width: 100%;
                 height: 15rem;
-                background-color: rgba(255,0,0,0.2); 
+                background-color: rgba(255,0,0,0.3); 
+                border-radius: 15px;
+            }
+            .titleDivSize {
+                padding: 0.6rem;
             }
             #headTitle {
                 color: #ffffff;
@@ -40,11 +42,31 @@
                 color: #ffffff;
                 font-size: 0.8rem;
             }
+            .products {
+                text-align: center;
+                font-size: 23px;
+            }
+            .productsDiv {
+                width: 100px;
+                height: 140px;
+                background-color: #ffffff;
+                margin: 10px;
+                display: inline-block;
+                border-radius: 15px;
+            }
+            .productsImg {
+                width: 100px;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+            }
+            .productsText {
+                font-size: 20px;
+            }
             .member {
                 width: 100%;
                 margin: 0 auto;
                 text-align: center;
-                font-size: 1.5rem;
+                font-size: 23px;
             }
             .memberDiv {
                 width: 90%; 
@@ -52,6 +74,7 @@
                 margin: auto; 
                 margin-bottom: 15px; 
                 background-color: rgb(255,255,255);
+                border-radius: 15px;
             }
             #memberTextPro {
                 width: 100px; 
@@ -79,34 +102,34 @@
     <body>
         <div class="head">
             <div id="headColor">
-                <div class="title">
+                <div class="titleDivSize">
                     <p id="headTitle">奈制品有限公司</p>
                     <p id="headText">
                         <b>
-                            创建于2023年，公司主要生产奶味食品，比如奈片、奈茶、奈糖、奈粉等。<br><br>此外，公司旗下还有<a href="https://xfkn1.github.io/xs">东奈小说网</a>网站收录了由菠萝包、秋水、雪风等知名小说家创作的作品。
+                            创建于2023年，始于兴趣（？）<br>公司主要产品有奈片、奈茶、奈糖、奈粉等。<br>此外，公司旗下还有东奈小说网，网站收录了知名创作者菠萝包、秋水、雪风等作者创作的小说作品，每本都是经典巨作，欢迎阅读（
                         </b>
                     </p>
                 </div>
             </div>
         </div>
 
-        <div style="text-align: center;">
-            <p style="font-size: 1.5rem;">产品一览</p>
-            <div style="width: 100px; height: 150px; background-color: #ffffff; margin: 15px; display: inline-block;">
-                <img style="width: 100px;" src="https://pic.imgdb.cn/item/65a7581e871b83018a789062.jpg">
-                <p style="text-align: center;">奈片</p>
+        <div class="products">
+            <p>产品一览</p>
+            <div class="productsDiv">
+                <img class="productsImg" src="https://pic.imgdb.cn/item/65a7581e871b83018a789062.jpg" >
+                <span class="productsText">奈片</span>
             </div>
-            <div style="width: 100px; height: 150px; background-color: #ffffff; margin: 15px; display: inline-block;">
-                <img style="width: 100px;" src="https://pic.imgdb.cn/item/65a75efa871b83018a8ebc52.jpg">
-                <p style="text-align: center;">奈茶</p>
+            <div class="productsDiv">
+                <img class="productsImg" src="https://pic.imgdb.cn/item/65a75efa871b83018a8ebc52.jpg">
+                <span class="productsText">奈茶</span>
             </div>
-            <div style="width: 100px; height: 150px; background-color: #ffffff; margin: 15px; display: inline-block;">
-                <img style="width: 100px;" src="https://pic.imgdb.cn/item/65a75f48871b83018a8fc25a.jpg">
-                <p style="text-align: center;">奈糖</p>
+            <div class="productsDiv">
+                <img class="productsImg" src="https://pic.imgdb.cn/item/65a75f48871b83018a8fc25a.jpg">
+                <span class="productsText">奈糖</span>
             </div>
-            <div style="width: 100px; height: 150px; background-color: #ffffff; margin: 15px; display: inline-block;">
-                <img style="width: 100px;" src="https://pic.imgdb.cn/item/65a6a105871b83018ade51fc.jpg">
-                <p style="text-align: center;">可奈</p>
+            <div class="productsDiv">
+                <img class="productsImg" src="https://pic.imgdb.cn/item/65a6a105871b83018ade51fc.jpg">
+                <span class="productsText">可奈</span>
             </div>
         </div>
 
