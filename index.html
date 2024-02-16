@@ -18,9 +18,10 @@
             background-color: rgba(0, 0, 0, 0.7);
             position: fixed;
             top: 0px;
+            z-index: 1;
         }
         .headerSpace {
-            height: 41px;
+            height: 40px;
         }
         .list {
             margin: 15px;
@@ -36,8 +37,10 @@
             left: 15px;
             bottom: 25px;
             background-color: #ffffff;
+            z-index: 0;
         }
         .list button {
+            margin: 5px;
             padding: 10px;
         }
     </style>
@@ -59,6 +62,17 @@
     </div>
 
     <div class="list">
+        <span class="title">新闻网站</span>
+        <div>
+            <a href="//toutiao.com"><button>今日头条</button></a>
+            <a href="//news.163.com"><button>网易新闻</button></a>
+            <a href="//ifeng.com/"><button>凤凰网</button></a>
+            <a href="//thepaper.cn/"><button>澎湃新闻</button></a>
+            <a href="//huanqiu.com/"><button>环球网</button></a>
+        </div>
+    </div>
+
+    <div class="list">
         <span class="title">搜索引擎</span>
         <div>
             <a href="//baidu.com"><button>百度</button></a>
@@ -68,12 +82,33 @@
     </div>
 
     <div class="list">
-        <span class="title">在线音乐</span>
+        <span class="title">音乐网站</span>
         <div>
             <a href="//kugou.com"><button>酷狗音乐</button></a>
             <a href="//y.qq.com"><button>QQ音乐</button></a>
             <a href="//music.163.com"><button>网易云音乐</button></a>
             <a href="//kuwo.cn"><button>酷我音乐</button></a>
+        </div>
+    </div>
+
+    <div class="list">
+        <span class="title">视频网站</span>
+        <div>
+            <a href="//bilibili.com"><button>哔哩哔哩</button></a>
+            <a href="//v.qq.com"><button>腾讯视频</button></a>
+            <a href="//ixigua.com"><button>西瓜视频</button></a>
+            <a href="//iqiyi.com"><button>爱奇艺</button></a>
+            <a href="//youku.com"><button>优酷</button></a>
+        </div>
+    </div>
+    
+    <div class="list">
+        <span class="title">漫画网站</span>
+        <div>
+            <a href="//kuaikanmanhua.com"><button>快看漫画</button></a>
+            <a href="//manga.bilibili.com"><button>哔哩哔哩漫画</button></a>
+            <a href="//ac.qq.com"><button>腾讯动漫</button></a>
+            <button onclick="alert('骗你的啦～')">哔咔漫画</button>
         </div>
     </div>
 </body>
