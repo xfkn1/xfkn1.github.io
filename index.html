@@ -31,11 +31,12 @@
             border-radius: 15px;
             padding: 15px;
             margin-bottom: 30px;
+            text-align: center;
         }
-        .list .title {
+        .listTitle {
             position: relative;
-            left: 15px;
-            bottom: 25px;
+            left: 40px;
+            top: 25px;
             background-color: #ffffff;
             z-index: 0;
         }
@@ -43,74 +44,59 @@
             margin: 5px;
             padding: 10px;
         }
+        .netButtonTitle {
+            font-size: 1.4em;
+        }
     </style>
 </head>
 
 <body>
-    <div class="header"><a href="//www.kenai.icu"><img src="logo.png" width="100px" alt="可奈网"></a></div>
+    <div class="header"><a href="mqq://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=89791877"><img src="logo.png" width="100px" alt="可奈网"></a></div>
     
     <div class="headerSpace"></div>
 
     <div class="random"><img src="https://t.mwm.moe/pc" width="100%" alt="随机二次元图片"></div>
-    
+
+    <span class="listTitle">推荐网站（广告位）</span>
     <div class="list">
-        <span class="title">推荐网站</span>
         <div>
-            <a href="./gs/index.html"><button>奈制品有限公司</button></a>
-            <a href="./xs/index.html"><button>东奈小说网</button></a>
+            <a href="./gs/index.html" target="_blank"><button><span class="netButtonTitle">奈制品有限公司</span></button></a>
+            <a href="./xs/index.html" target="_blank"><button><span class="netButtonTitle">东奈小说网</span></button></a>
         </div>
     </div>
 
+    <span class="listTitle">以图搜图网站</span>
     <div class="list">
-        <span class="title">新闻网站</span>
         <div>
-            <a href="//toutiao.com"><button>今日头条</button></a>
-            <a href="//news.163.com"><button>网易新闻</button></a>
-            <a href="//ifeng.com/"><button>凤凰网</button></a>
-            <a href="//thepaper.cn/"><button>澎湃新闻</button></a>
-            <a href="//huanqiu.com/"><button>环球网</button></a>
+            <a href="//saucenao.com" target="_blank"><button><span class="netButtonTitle">SauceNao</span><br>（专搜pixiv和twitter上面的图）</button></a>
+            <a href="//iqdb.org" target="_blank"><button><span class="netButtonTitle">Multi-service</span><br>（综合搜索 同时用很多引擎来搜）</button></a>
+            <a href="//images.google.com" target="_blank"><button><span class="netButtonTitle">Google识图</span><br>（很强大 上面两个搜不到试试这个）</button></a>
+            <a href="//yandex.com/images" target="_blank"><button><span class="netButtonTitle">Yandex识图</span><br>（谷歌搜不到来这 有时会给你惊喜）</button></a>
+            <a href="//images.baidu.com" target="_blank"><button><span class="netButtonTitle">百度识图</span><br>（搜贴吧的表情包比较好用）</button></a>
         </div>
     </div>
 
+    <span class="listTitle">免费音乐下载网站</span>
     <div class="list">
-        <span class="title">搜索引擎</span>
         <div>
-            <a href="//baidu.com"><button>百度</button></a>
-            <a href="//sogou.com"><button>搜狗</button></a>
-            <a href="//so.com"><button>360搜索</button></a>
+            <a href="//tools.liumingye.cn/music_old/?page=searchPage" target="_blank"><button><span class="netButtonTitle">MyFreeMp3</span><br>（内置多引擎 搜不到可以换引擎搜）</button></a>
+            <a href="//www.yinyueke.net/m/" target="_blank"><button><span class="netButtonTitle">音乐客</span><br>（只能搜到网易云的歌曲）</button></a>
+            <a href="mqq://card/show_pslcard?src_type=internal&source=sharecard&version=1&uin=89791877" target="_blank"><button><span class="netButtonTitle">可奈搜索</span><br>（人工代搜 没有她下载不到的歌）</button></a>
         </div>
     </div>
 
+    <span class="listTitle">漫画搜索网站</span>
     <div class="list">
-        <span class="title">音乐网站</span>
         <div>
-            <a href="//kugou.com"><button>酷狗音乐</button></a>
-            <a href="//y.qq.com"><button>QQ音乐</button></a>
-            <a href="//music.163.com"><button>网易云音乐</button></a>
-            <a href="//kuwo.cn"><button>酷我音乐</button></a>
+            <a href="//www.soman.com" target="_blank"><button><span class="netButtonTitle">搜漫</span><br>（想搜什么漫画都有）</button></a>
+            <a href="//trace.moe" target="_blank"><button><span class="netButtonTitle">动漫截图识别</span><br>（可以用一张动漫截图查找番名）</button></a>
+            <a href="//ai.animedb.cn/" target="_blank"><button><span class="netButtonTitle">AnimeTrace</span><br>（上面的网站搜不到可以用这个）</button></a>
+            <button onclick="alert('你 被 骗 啦'); alert('点击网站最顶上的图标 加QQ好友获取');"><span class="netButtonTitle">哔咔漫画</span></button>
+            <button onclick="alert('你 被 骗 啦'); alert('点击网站最顶上的图标 加QQ好友获取');"><span class="netButtonTitle">禁漫天堂</span></button>
         </div>
     </div>
 
-    <div class="list">
-        <span class="title">视频网站</span>
-        <div>
-            <a href="//bilibili.com"><button>哔哩哔哩</button></a>
-            <a href="//v.qq.com"><button>腾讯视频</button></a>
-            <a href="//ixigua.com"><button>西瓜视频</button></a>
-            <a href="//iqiyi.com"><button>爱奇艺</button></a>
-            <a href="//youku.com"><button>优酷</button></a>
-        </div>
-    </div>
-    
-    <div class="list">
-        <span class="title">漫画网站</span>
-        <div>
-            <a href="//kuaikanmanhua.com"><button>快看漫画</button></a>
-            <a href="//manga.bilibili.com"><button>哔哩哔哩漫画</button></a>
-            <a href="//ac.qq.com"><button>腾讯动漫</button></a>
-            <button onclick="alert('你 被 骗 了')">哔咔漫画</button>
-        </div>
-    </div>
+    <p style="background-color: #000000; color: #ffffff; text-align: center;">红色名字的网站需要科学上网才能访问<br>站长QQ：点击网站顶部图标<br>Copyright ♡ 2024 by 香风可奈</p>
 </body>
 
 </html>
