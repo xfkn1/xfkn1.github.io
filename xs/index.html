@@ -13,10 +13,12 @@
         }
 
         #header {
-            padding: 10px;
-            font-size: 18px;
-            color: #ffffff;
-            background-color: rgba(255, 0, 0, 0.5);
+            width: 100%;
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.3);
+            position: fixed;
+            top: 0;
+            z-index: 1;
         }
 
         .list {
@@ -34,7 +36,7 @@
             left: 40px;
             top: 26px;
             background-color: #ffffff;
-            padding: 5px;
+            z-index: 0;
         }
 
         button {
@@ -71,7 +73,8 @@
 </head>
 
 <body>
-    <div id="header">东奈小说网</div>
+    <div id="header"><a href=""><img src="files/logo.png" width="100px" alt="东奈小说网"></a></div>
+    <div style="width: 100%; height: 38px;"></div>
 
     <span class="listTitle">精选小说</span>
     <div class="list">
