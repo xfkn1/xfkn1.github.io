@@ -3,14 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>奈制品有限公司_首页</title>
+    <title>奈制品有限公司 - 首页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            background-color: rgb(240, 240, 240);
-            font-size: 20px;
+            padding: 0px;
             max-width: 600px;
             margin: 0 auto;
         }
@@ -46,16 +43,28 @@
             font-size: 0.8rem;
         }
 
-        .products {
-            text-align: center;
-            font-size: 23px;
+        .list {
+            margin: 15px;
+            padding: 15px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #000000;
+            border-radius: 15px;
+        }
+        
+        .listTitle {
+            position: relative;
+            left: 45px;
+            top: 25px;
+            background-color: #ffffff;
+            font-size: 18px;
         }
 
         .productsDiv {
             width: 100px;
             height: 140px;
             background-color: #ffffff;
-            margin: 10px;
+            margin: 3px;
             display: inline-block;
             border-radius: 15px;
         }
@@ -68,22 +77,14 @@
 
         .productsText {
             font-size: 20px;
-        }
-
-        .member {
-            width: 100%;
-            margin: 0 auto;
             text-align: center;
-            font-size: 23px;
         }
 
         .memberDiv {
-            width: 90%;
-            height: 6rem;
+            width: 100%;
+            height: 100px;
             margin: auto;
             margin-bottom: 15px;
-            background-color: rgb(255, 255, 255);
-            border-radius: 15px;
         }
 
         #memberTextPro {
@@ -121,35 +122,35 @@
                 <p id="headTitle">奈制品有限公司</p>
                 <p id="headText">
                     <b>
-                        创建于2023年，始于兴趣（？）<br>公司主要产品有奈片、奈茶、奈糖、奈粉等。<br>此外，公司旗下还有东奈小说网，网站收录了知名创作者菠萝包、秋水、雪风等作者创作的小说作品，每本都是经典巨作，欢迎阅读（
+                        创建于2023年，始于兴趣（？）<br>公司主要产品有奈片、奈茶、奈糖、奈粉等。<br>此外，公司旗下还有<a href="../xs/index.html">东奈小说网</a>，网站收录了知名创作者菠萝包、秋水、雪风等作者创作的小说作品，每本都是经典巨作，欢迎阅读（
                     </b>
                 </p>
             </div>
         </div>
     </div>
 
-    <div class="products">
-        <p>产品一览</p>
+    <span class="listTitle">产品一览</span>
+    <div class="list">
         <div class="productsDiv">
             <img class="productsImg" src="https://pic.imgdb.cn/item/65a7581e871b83018a789062.jpg">
-            <span class="productsText">奈片</span>
+            <div class="productsText">奈片</div>
         </div>
         <div class="productsDiv">
             <img class="productsImg" src="https://pic.imgdb.cn/item/65a75efa871b83018a8ebc52.jpg">
-            <span class="productsText">奈茶</span>
+            <div class="productsText">奈茶</div>
         </div>
         <div class="productsDiv">
             <img class="productsImg" src="https://pic.imgdb.cn/item/65a75f48871b83018a8fc25a.jpg">
-            <span class="productsText">奈糖</span>
+            <div class="productsText">奈糖</div>
         </div>
         <div class="productsDiv">
             <img class="productsImg" src="https://pic.imgdb.cn/item/65cc85da9f345e8d0361fe92.jpg">
-            <span class="productsText">可奈</span>
+            <div class="productsText">可奈</div>
         </div>
     </div>
 
-    <div class="member">
-        <p>主要成员</p>
+    <span class="listTitle">主要成员</span>
+    <div class="list">
         <div class="memberDiv">
             <div id="memberTextPro">
                 <img src="https://pic.imgdb.cn/item/65a6a105871b83018ade51fc.jpg">
