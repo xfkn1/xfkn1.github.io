@@ -3,34 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>东奈小说网</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>东奈小说网 - 萝因茨最大的小说网站</title>
     <style>
         body {
             max-width: 600px;
             margin: 0 auto;
-            padding: 0px;
+            padding: 0;
         }
 
         #header {
             width: 100%;
-            text-align: center;
-            background-color: rgba(255, 0, 0, 0.3);
-            position: fixed;
-            top: 0;
-            z-index: 1;
+            color: #ffffff;
+            background-color: rgb(255, 100, 100);
+            font-weight: bold;
+            font-size: 1.2rem;
         }
 
-        .list {
-            margin: 15px;
-            border-style: solid;
-            border-width: 1.5px;
-            border-color: #000000;
-            border-radius: 15px;
-            padding: 10px;
+        #headerTitle {
+            padding: 5px;
         }
 
-        button {
+        .button {
             background-color: #ffffff;
             border-width: 0px;
             padding: 15px;
@@ -43,72 +37,74 @@
             float: left;
         }
 
-        .buttonContentTitle {
-            text-align: left;
-            font-size: 18px;
+        .buttonTitle {
             padding-bottom: 5px;
+            text-align: left;
+            font-size: 1.1rem;
+            color: #000000;
         }
 
-        .buttonContentText {
+        .buttonContent {
+            height: 78px;
             text-align: left;
-            font-size: 13px;
+            font-size: 0.9rem;
             color: #666666;
-            height: 75px;
         }
 
-        .buttonContentAuthor {
+        .buttonAuthor {
             text-align: left;
-            font-size: 14px;
+            font-size: 0.8rem;
+            color: #000000;
         }
     </style>
 </head>
 
 <body>
     <div id="header">
-        <img src="logo.png" width="100px" alt="东奈小说网">
-    </div>
-    <div style="width: 100%; height: 38px;"></div>
-
-    <div class="list">
-        <div>
-            <a href="0001">
-                <button>
-                    <img class="buttonImg" src="https://pic.imgdb.cn/item/65c4b2589f345e8d03a2f7e8.jpg">
-                    <div class="buttonContent">
-                        <div class="buttonContentTitle">重生之我是喵呜</div>
-                        <div class="buttonContentText">喵呜在群里涩涩，不幸被网警抓到，被迫跳楼，谁知竟转生成为了猫耳魅魔少女！接下来她该怎么做呢？</div>
-                        <div class="buttonContentAuthor">吉祥物 - 连载中 - 奇幻</div>
-                    </div>
-                </button>
-            </a>
-        </div>
-
-        <div>
-            <a href="0002">
-                <button>
-                    <img class="buttonImg" src="https://pic.imgdb.cn/item/65c4b2689f345e8d03a324b7.jpg">
-                    <div class="buttonContent">
-                        <div class="buttonContentTitle">天降的一星期猫娘</div>
-                        <div class="buttonContentText">身处日本的男高中生，有一天家里来了两只可爱的猫娘！和她们同居后会发生什么精彩刺激的事情？</div>
-                        <div class="buttonContentAuthor">吉祥物 - 连载中 - 科幻</div>
-                    </div>
-                </button>
-            </a>
-        </div>
-
-        <div>
-            <a href="0003">
-                <button>
-                    <img class="buttonImg" src="https://pic.imgdb.cn/item/65ba220a871b83018a812a10.jpg">
-                    <div class="buttonContent">
-                        <div class="buttonContentTitle">秋水的百合集~</div>
-                        <div class="buttonContentText">鲁迅说：“秋水写的百合文是世界上最涩的！没有之一！窝最爱看秋水写的百合文了ww！”</div>
-                        <div class="buttonContentAuthor">秋水 - 连载中 - 涩涩</div>
-                    </div>
-                </button>
-            </a>
+        <div id="headerTitle">
+            东奈小说网｜萝因茨最大的小说网站！
         </div>
     </div>
+
+    <!--广告位招租-->
+    <div style="width: 100%; background: #999999; text-align: center; color: #ffffff; font-size: 0.8rem;">
+        <div style="padding: 5px;">
+            -广告位-
+        </div>
+    </div>
+
+    <a href="./0001/index.html">
+        <button class="button">
+            <img class="buttonImg" src="https://pic.imgdb.cn/item/65c4b2589f345e8d03a2f7e8.jpg">
+            <div>
+                <div class="buttonTitle">重生之我是喵呜</div>
+                <div class="buttonContent">喵呜在群里涩涩，不幸被网警抓到，被迫跳楼，谁知竟转生成为了猫耳魅魔少女！接下来她该怎么做呢？</div>
+                <div class="buttonAuthor">吉祥物 - 连载中 - 科幻</div>
+            </div>
+        </button>
+    </a>
+
+    <a href="./0002/index.html">
+        <button class="button">
+            <img class="buttonImg" src="https://pic.imgdb.cn/item/65c4b2689f345e8d03a324b7.jpg">
+            <div>
+                <div class="buttonTitle">天降的一星期猫娘</div>
+                <div class="buttonContent">身处日本的男高中生，有一天家里来了两只可爱的猫娘！和她们同居后会发生什么精彩刺激的事情？</div>
+                <div class="buttonAuthor">吉祥物 - 连载中 - 科幻</div>
+            </div>
+        </button>
+    </a>
+
+    <a href="./0003/index.html">
+        <button class="button">
+            <img class="buttonImg" src="https://pic.imgdb.cn/item/65ba220a871b83018a812a10.jpg">
+            <div>
+                <div class="buttonTitle">秋水的百合集~</div>
+                <div class="buttonContent">鲁迅说：“秋水写的百合文是世界上最涩的！没有之一！窝最爱看秋水写的百合文了ww！”</div>
+                <div class="buttonAuthor">秋水 - 连载中 - 百合</div>
+            </div>
+        </button>
+    </a>
 </body>
 
 </html>
