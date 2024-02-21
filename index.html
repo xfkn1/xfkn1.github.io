@@ -9,6 +9,7 @@
         body {
             margin: 0;
             padding: 0;
+            background: #f0f0f0;
         }
         
         #div1 {
@@ -18,15 +19,16 @@
             padding-top: 10vh;
         }
         
-        #div1 input {
+        #div1 #input {
             padding: 10px;
             border-style: none;
             border-top-left-radius: 50px;
             border-bottom-left-radius: 50px;
             outline: none;
+            background: #f0f0f0;
         }
         
-        #div1 button {
+        #div1 #button {
             padding: 10px;
             border-style: none;
             border-top-right-radius: 50px;
@@ -40,6 +42,21 @@
             border-color: #000000;
             border-radius: 50px;
         }
+
+        #div2 {
+            width: 70%;
+            margin: 50px auto;
+            max-width: 600px;
+            background: #ffffff;
+            padding: 20px;
+            text-align: left;
+            border-radius: 15px;
+        }
+        
+        #div2 button {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 
@@ -49,9 +66,14 @@
         <img src="logo.png" width="150px"><br>
         <div class="a">
             <form action="http://www.baidu.com/s" method="get">
-                <input type="text" name="wd">
-                <button type="submit">百度搜索</button>
+                <input id="input" type="text" name="wd">
+                <button id="button" type="submit">百度搜索</button>
             </form>
+        </div>
+        <div id="div2">
+            <div style="text-align: center;">友链</div>
+            <a href="http://kenai.icu/xs" target="_blank";><button>东奈小说网</button></a>
+            <a href="https://www.myfreemp3.com.cn/" target="_blank"><button>免费音乐下载网</button></a>
         </div>
     </div>
 
