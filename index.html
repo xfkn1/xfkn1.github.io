@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>可奈网</title>
+    <title>可奈网｜神萝帝国最大的搜索网站</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
@@ -16,10 +16,9 @@
             width: 100%;
             height: 100vh;
             text-align: center;
-            padding-top: 25vh;
         }
 
-        #div1 #input {
+        #div1 input {
             padding: 10px;
             border-style: none;
             border-top-left-radius: 50px;
@@ -28,34 +27,24 @@
             background: #f0f0f0;
         }
 
-        #div1 #button {
+        #div1 button {
             padding: 10px;
             border-style: none;
             border-top-right-radius: 50px;
             border-bottom-right-radius: 50px;
         }
+        
+        #div1_1 {
+            position: relative;
+            top: 25vh;
+        }
 
-        #div1 .a {
+        #div1_2 {
             display: inline-block;
             border-style: solid;
             border-width: 1.5px;
             border-color: #000000;
             border-radius: 50px;
-        }
-
-        #div2 {
-            width: 70%;
-            margin: 50px auto;
-            max-width: 600px;
-            background: #ffffff;
-            padding: 20px;
-            text-align: left;
-            border-radius: 15px;
-        }
-
-        #div2 button {
-            margin-top: 20px;
-            margin-bottom: 20px;
         }
     </style>
 </head>
@@ -63,19 +52,15 @@
 <body>
 
     <div id="div1">
+    <div id="div1_1">
         <img src="logo.png" width="150px"><br>
-        <div class="a">
+        <div id="div1_2">
             <form action="http://www.baidu.com/s" method="get">
                 <input id="input" type="text" name="wd" placeholder="百度搜索">
                 <button id="button" type="submit">搜索</button>
             </form>
         </div>
     </div>
-
-    <div id="div2">
-        <div style="text-align: center;">友链</div>
-        <a href="http://kenai.icu/xs" target="_blank" ;><button>东奈小说网</button></a>
-        <a href="https://www.myfreemp3.com.cn/" target="_blank"><button>免费音乐下载网</button></a>
     </div>
 
     <div style="width: 100%; color: #ffffff; background: #000000; text-align: center; padding: 5px;">
