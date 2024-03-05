@@ -4,15 +4,6 @@ body {
     margin: 0 auto;
 }
 
-.header {
-    width: 100%;
-    background-color: #ffffff;
-}
-
-.header img {
-    padding: 8px;
-}
-
 .textCenter {
     width: 100%;
     text-align: center;
