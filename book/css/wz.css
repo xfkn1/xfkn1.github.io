@@ -1,0 +1,22 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#title {
+    width: 100%;
+    font-size: 0.8em;
+    padding: 8px;
+    color: rgb(150, 150, 150);
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+}
+
+#text {
+    font-size: 1.3em;
+    padding: 0.8em;
+    text-indent: 2em;
+    line-height: 3em;
+}

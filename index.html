@@ -1,69 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <title>可奈网</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <title>书架 - 东奈小说网</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
         body {
-            margin: 0;
-            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
-        #div1 {
-            width: 100%;
-            text-align: center;
+        .book {
+            margin: 15px;
+            width: 95%;
+            height: 150px;
         }
 
-        #div1 input {
-            width: 14rem;
-            padding: 10px;
-            border-style: none;
-            border-top-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-            outline: none;
+        .book img {
+            width: 100px;
+            float: left;
         }
 
-        #div1 button {
-            width: 4.2rem;
-            padding: 10px;
-            border-style: none;
-            border-top-right-radius: 50px;
-            border-bottom-right-radius: 50px;
-            cursor: pointer;
-        }
-
-        #div1_1 {
-            position: relative;
-            top: 30vh;
-        }
-
-        #div1_2 {
-            width: 20rem;
-            display: inline-block;
-            border-style: solid;
-            border-width: 1.5px;
-            border-color: #000000;
-            border-radius: 50px;
+        a {
+            color: black;
         }
     </style>
 </head>
 
 <body>
-
-    <div id="div1">
-        <div id="div1_1">
-            <img src="logo.png" width="150px"><br>
-            <div id="div1_2">
-                <form action="http://www.baidu.com/s" method="get">
-                    <input id="input" type="text" name="wd" placeholder="百度搜索">
-                    <button id="button" type="submit">搜索</button>
-                </form>
+    <div>
+        <a href="./book/0001/index.html">
+            <div class="book">
+                <img src="https://pic.imgdb.cn/item/65c4b2589f345e8d03a2f7e8.jpg">
+                重生之我是喵呜<br />
+                作者:吉祥物 
             </div>
-        </div>
+        </a>
+        <a href="./book/0002/index.html">
+            <div class="book">
+                <img src="https://pic.imgdb.cn/item/65c4b2689f345e8d03a324b7.jpg">
+                天降的一星期猫娘<br />
+                作者:吉祥物
+            </div>
+        </a>
+        <a href="./book/0003/index.html">
+            <div class="book">
+                <img src="https://pic.imgdb.cn/item/65ba220a871b83018a812a10.jpg">
+                秋水的百合集<br />
+                作者:秋水
+            </div>
+        </a>
     </div>
-
 </body>
 
 </html>
